@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
   <div id="details">
     <div>
       Show face boundary
@@ -74,15 +75,29 @@
     <div id="exp-emo"></div>
 
   </div>
-
-  <div id="alert">📷<small> Allow Web Cam to run this app</small></div>
+  <!--<div class="header">📷 Allow Web Cam to run this appThe Facial Attributes Using Face Detection</div> --> 
+  <div id="alert"><label id='camnot'>📷 Allow Web Cam to run this app</label> <br>The Facial Attributes Using Face Detection</div>
 
   <h2 id="loader">Loading...</h2>
 
   <div id="cam-wrp">
     <video id="cam" width="750" height="562" autoplay muted></video>
   </div>
-
+  <div id="info">
+  <b>Project members:
+    <ul>
+      <li>Shubham Kakade</li>
+      <li>Atharva Boralkar</li>
+      <li>Shripad Joshi</li>
+      <li>Vedang Watve</li>
+    </ul>
+  </b>
+  <ol>
+    <li>Emotion recognition is the process of identifying human emotion.</li><br>
+    <li>Use of technology to help people with emotion recognition is a relatively nascent research area.</li><br>
+    <li>Considering different modalities is vital when designing intelligent systems, as some emotions can be identified more easily by a specific modality.</li>
+    </ol>
+  </div>
 </body>
 
 </html>
